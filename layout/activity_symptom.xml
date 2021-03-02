@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Symptom">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Symptom Navigator"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/Epilepsy1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Confusion" />
+
+            <Button
+                android:id="@+id/Epilepsy2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Staring Spell" />
+
+            <Button
+                android:id="@+id/Epilepsy3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Jerking Movements" />
+
+            <Button
+                android:id="@+id/Spine1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Stiff lower back" />
+
+            <Button
+                android:id="@+id/Spine2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Persistant pain for 10-14 days" />
+
+            <Button
+                android:id="@+id/Back1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Muscle Ache" />
+
+            <Button
+                android:id="@+id/Back2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Can't hold normal posture" />
+
+            <Button
+                android:id="@+id/Cerebral1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Head Ache" />
+
+            <Button
+                android:id="@+id/Cerebral2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Loss of Balance" />
+
+            <Button
+                android:id="@+id/Cerebral3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Stronger Confusion" />
+
+            <Button
+                android:id="@+id/Sclerosis1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Numb/Weak Limbs" />
+
+            <Button
+                android:id="@+id/Sclerosis2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Electric Shock Feeling" />
+
+            <Button
+                android:id="@+id/Sclerosis3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Vision Problems" />
+
+            <Button
+                android:id="@+id/Sclerosis4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Dizziness and Fatigue" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
