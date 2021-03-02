@@ -1,0 +1,7 @@
+## Hospital Functionality for a Mobile Application.
+
+Neuroscience division wanted an app that educated users on the various neurological diseases and their symptoms. My task was to create a scrolling menu
+that had a list of symptom buttons that would take a user to their corresponding disease. The functionality would also 
+include 5 diseases that users could read about without having to select the symptom navigation tool. The disease pages would include the symptoms as well.
+Users would tap the symptoms button to see a list of symptoms. Choosing a symptom would take them to the corresponding disease.
+XML files are included with layout information. First introduction to Android Studio 3.5.
